@@ -1,2 +1,2 @@
 # AACCUniv2022_reports_dashboards
-Course materials for AACC 2022 ASM
+Materials for the 2022 AACC University course -- Doing More with R: Create Your Own Automated Reports and Dashboards
