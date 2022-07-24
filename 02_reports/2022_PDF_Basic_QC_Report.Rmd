@@ -46,12 +46,10 @@ This is an example of a R Markdown document for creating basic reports. Markdown
 ```{r import_data, include = FALSE}
 
 ### Import the major data set 
-dataset_df <- read.csv(here::here("data",
-                                   "2020_AACC_DATASET.csv")) %>%
+dataset_df <- read.csv(here::here("2020_AACC_DATASET.csv")) %>%
                                    janitor::clean_names()
 ### Import the supporting data set
-expected_df <- readxl::read_xlsx(here::here("data",
-                                   "2020_AACC_expected_values.xlsx")) %>%
+expected_df <- readxl::read_xlsx(here::here( "2020_AACC_expected_values.xlsx")) %>%
                                    janitor::clean_names()
 
 glimpse(dataset_df)
